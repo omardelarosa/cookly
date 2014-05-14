@@ -1,0 +1,78 @@
+/* must be first line of code */
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext);
+          /* font-family: 'Lobster', cursive; */
+
+body {
+  color: #333;
+/*  padding: 0px 20px 50px 20px; */
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  color: #000;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.6em;
+  color: #000;
+}
+h3 {
+  font-size: 2em;
+  color: #000;
+}
+h4 {
+  font-size: 1.2em;
+  color: #000;
+}
+
+a:link { }  /* link */
+a:visited { }  /* link already visited */
+a:hover { }  /* link when mouse cursor is over it */
+a:active { }  /* link at the second it is clicked */
+
+ul{
+  margin-left: -5%;
+}
+
+.form {
+  background-color: #eee;
+  padding: 2px 0px 10px 10px;
+  margin-top: 10px;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+input {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+
+
+
+/******* MEDIA QUERIES ************************/
+
+/* set responsive fonts */
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+@media(max-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media(max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media(max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}

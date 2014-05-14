@@ -1,0 +1,17 @@
+<h2>Chefs</h2>
+<ul class="chefs">
+  <% @chefs.each do |chef| %>
+    <li>
+      <h4 class="chef_name"><%= link_to chef.name, "/chefs/#{chef.id}" %></h4>
+      <p>
+        <ul class="cookbooks">
+        <% chef.cookbooks.each do |cookbook| %>
+          <li class="cookbook_title">
+            <%= link_to cookbook.title, "/cookbooks/#{cookbook.id}" %>
+          </li>
+        <% end %>
+        </ul>
+      </p>
+    </li>
+  <% end %>
+</ul>

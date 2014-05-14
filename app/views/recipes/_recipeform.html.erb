@@ -1,0 +1,6 @@
+<%= form_for recipe_local do |f| %>
+  <%= f.text_field :title, { placeholder: "title" } %>
+  <%= f.text_field :content, { placeholder: "content" } %>
+  <%= f.hidden_field :cookbook_id, value: cookbook_id %>
+  <%= f.submit %>
+<% end %>
