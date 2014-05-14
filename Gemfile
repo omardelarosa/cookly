@@ -40,3 +40,6 @@ gem 'pry-rails'
 gem 'pry'
 gem 'faker'
 gem 'bcrypt'
+
+# for Heroku ... you must...
+gem 'rails_12factor'
