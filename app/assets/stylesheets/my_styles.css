@@ -76,3 +76,11 @@ html {
     font-size: 14px;
   }
 }
+
+/************ SECRET ***********************/
+
+.secret {
+  font-style: italic;
+  text-align: center;
+  font-size: 0.8em;
+}
